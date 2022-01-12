@@ -27,6 +27,7 @@ const ProfileContent = () => {
     return (
         <>
             <h5 className="card-title">Welcome {accounts[0].name}</h5>
+            <h6 className="card-title">Welcome {accounts[0].username}</h6>
             {graphData ? 
                 <ProfileData graphData={graphData} />
                 :
