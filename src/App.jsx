@@ -28,11 +28,11 @@ const ProfileContent = () => {
         <>
             <h5 className="card-title">Welcome {accounts[0].name}</h5>
             <h6 className="card-title"><span>Your Email'Id:</span> {accounts[0].username}</h6>
-            {graphData ? 
+            {/* {graphData ? 
                 <ProfileData graphData={graphData} />
                 :
                 <Button variant="secondary" onClick={RequestProfileData}>Request Profile Information</Button>
-            }
+            } */}
         </>
     );
 };
