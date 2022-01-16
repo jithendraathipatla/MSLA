@@ -20,7 +20,7 @@ export const PageLayout = (props) => {
 
     return (
         <>
-            <div style={{textAlign:"center", padding:"10px 0px 50px 0px"}}><img src={MainLogo} height={65} width={400}/></div>
+            {/* <div style={{textAlign:"center", padding:"10px 0px 50px 0px"}}><img src={MainLogo} height={65} width={400}/></div> */}
             {/* <Navbar bg="primary" variant="dark">
                 <a className="navbar-brand" href="/">Hitachi Energy</a>
                 { isAuthenticated ? <SignOutButton /> : <SignInButton /> }
@@ -30,7 +30,7 @@ export const PageLayout = (props) => {
             <div style={{display:"flex", justifyContent:"space-between"}}>
              <div></div>
              <div style={{boxShadow:"0 4px 8px 0 rgba(0,0,0,0.2)", padding: "90px 86px", textAlign:"center"}}>
-                <h4>Please use your Microsoft credentials to signIn</h4> 
+                <h6>Please signIn using ABB Credentials</h6> 
                 <br/>
                 
                 { isAuthenticated ? <SignOutButton /> : <SignInButton /> }
