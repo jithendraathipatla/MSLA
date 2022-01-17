@@ -32,22 +32,24 @@ const ProfileContent = () => {
         );
       });
   }
- 
+
   let button1 = "";
   let button2 = "";
   let country = "";
+  let keyUserExists = "";
   const final2_0_v_URL = () => {
-    let result = AllUserData.filter(t=>t.username === accounts[0].username);
-    result.map((i)=> {
+    let result = AllUserData.filter((t) => t.username === accounts[0].username);
+    if (result == "" ? keyUserExists = 0 : keyUserExists = 1);
+    result.map((i) => {
       button1 = i.buttonURL2_0_v;
       button2 = i.buttonURL2_1_v;
       country = i.country;
-    })
-  }
+    });
+  };
   final2_0_v_URL();
 
   return (
-
+    console.log(keyUserExists),
     (
       <>
         <h5 className="card-title">Welcome {accounts[0].name}</h5>
@@ -55,28 +57,47 @@ const ProfileContent = () => {
           <span style={{ color: "green" }}>Your Email'Id:</span>{" "}
           {accounts[0].username}
         </h6>
-        
+
         {/* {graphData ? 
                 <ProfileData graphData={graphData} />
                 :
                 <Button variant="secondary" onClick={RequestProfileData}>Request Profile Information</Button>
             } */}
-        
+
         <div className="tab-content">
           <div></div>
           <div>
             <br />
-            <table style={{ borderSpacing: "0px" }}>
-              <tr>
-                <th>2.0 V</th>
-                <th>2.1 V</th>
-              </tr>
-              <tr>
-                <td><button className="prestigecopyabcde" onClick={() => window.open(button1)}>{country} - 2.0-version</button></td>
-                <td><button className="prestigecopyabcde" onClick={() => window.open(button2)}>{country} - 2.1-version</button></td>
-                
-              </tr>
-            </table>
+            {keyUserExists == 0 ? (
+             
+              <span style={{color:"red"}}> <br/>
+              <br/>You do are not authorised to access the links</span>
+            ) : (
+              <table style={{ borderSpacing: "0px" }}>
+                <tr>
+                  <th>2.0 V</th>
+                  <th>2.1 V</th>
+                </tr>
+                <tr>
+                  <td>
+                    <button
+                      className="prestigecopyabcde"
+                      onClick={() => window.open(button1)}
+                    >
+                      {country} - 2.0-version
+                    </button>
+                  </td>
+                  <td>
+                    <button
+                      className="prestigecopyabcde"
+                      onClick={() => window.open(button2)}
+                    >
+                      {country} - 2.1-version
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            )}
           </div>
           <div></div>
         </div>
@@ -99,7 +120,7 @@ const MainContent = () => {
 
       <UnauthenticatedTemplate>
         <h6 className="card-title">
-          Your Profile Name will get displayed here after signingIn
+          Your will see the direct links if you are an authorised user
         </h6>
       </UnauthenticatedTemplate>
     </div>
