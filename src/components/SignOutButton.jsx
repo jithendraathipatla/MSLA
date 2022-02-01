@@ -10,8 +10,8 @@ export const SignOutButton = () => {
     const handleLogout = (logoutType) => {
         if (logoutType === "popup") {
             instance.logoutPopup({
-                postLogoutRedirectUri: "/",
-                mainWindowRedirectUri: "/"
+                postLogoutRedirectUri: "/html/microsoft-login/",
+                mainWindowRedirectUri: "/html/microsoft-login/"
             });
         } 
     }

@@ -1,6 +1,7 @@
 {
   "name": "msal-react-quickstart",
   "version": "0.1.0",
+  "homepage":"https://xc-s-zw00221.xc.abb.com:8080/html/microsoft-login/",
   "description": "A React single-page application calling Microsoft Graph API using MSAL.js (w/ AAD v2 endpoint)",
   "private": true,
   "dependencies": {

@@ -14,7 +14,7 @@ export const msalConfig = {
     auth: {
         clientId: "8386efec-d021-4f0a-9c85-ea11809d4046",
         authority: "https://login.microsoftonline.com/372ee9e0-9ce0-4033-a64a-c07073a91ecd",
-        redirectUri: "https://awesome-lichterman-43e5d2.netlify.app/"
+        redirectUri: "https://xc-s-zw00221.xc.abb.com:8443/html/microsoft-login/"
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
