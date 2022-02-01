@@ -71,7 +71,7 @@ const ProfileContent = () => {
             {keyUserExists == 0 ? (
              
               <span style={{color:"red"}}> <br/>
-              <br/>You do are not authorised to access the links</span>
+              <br/>Contact your administrator for the link</span>
             ) : (
               <table style={{ borderSpacing: "0px" }}>
                 <tr>
@@ -118,11 +118,11 @@ const MainContent = () => {
         <ProfileContent />
       </AuthenticatedTemplate>
 
-      <UnauthenticatedTemplate>
+      {/* <UnauthenticatedTemplate>
         <h6 className="card-title">
           Contact your administrator for the link
         </h6>
-      </UnauthenticatedTemplate>
+      </UnauthenticatedTemplate> */}
     </div>
   );
 };
