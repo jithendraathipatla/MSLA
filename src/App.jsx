@@ -120,7 +120,7 @@ const MainContent = () => {
 
       <UnauthenticatedTemplate>
         <h6 className="card-title">
-          Your will see the direct links if you are an authorised user
+          Contact your administrator for the link
         </h6>
       </UnauthenticatedTemplate>
     </div>

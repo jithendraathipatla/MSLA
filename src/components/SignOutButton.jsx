@@ -17,7 +17,7 @@ export const SignOutButton = () => {
     }
     return (
         <Button variant="warning" className="ml-auto" drop="left" title="Sign Out" onClick={() => handleLogout("popup")}>
-           Sign out
+           Logout
         </Button>
     )
 }

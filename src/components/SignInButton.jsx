@@ -24,7 +24,7 @@ export const SignInButton = () => {
       title="Sign In"
       onClick={() => handleLogin("popup")}
     >
-      Sign in
+      Login
     </Button>
   );
 };
