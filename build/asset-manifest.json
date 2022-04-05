@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/html/microsoft-login/static/css/main.0d5f61dc.chunk.css",
+    "main.js": "/html/microsoft-login/static/js/main.662706de.chunk.js",
+    "main.js.map": "/html/microsoft-login/static/js/main.662706de.chunk.js.map",
+    "runtime-main.js": "/html/microsoft-login/static/js/runtime-main.010db7c3.js",
+    "runtime-main.js.map": "/html/microsoft-login/static/js/runtime-main.010db7c3.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/html/microsoft-login/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fc20a20c.chunk.js": "/html/microsoft-login/static/js/2.fc20a20c.chunk.js",
+    "static/js/2.fc20a20c.chunk.js.map": "/html/microsoft-login/static/js/2.fc20a20c.chunk.js.map",
+    "index.html": "/html/microsoft-login/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/html/microsoft-login/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.0d5f61dc.chunk.css.map": "/html/microsoft-login/static/css/main.0d5f61dc.chunk.css.map",
+    "static/js/2.fc20a20c.chunk.js.LICENSE.txt": "/html/microsoft-login/static/js/2.fc20a20c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.010db7c3.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fc20a20c.chunk.js",
+    "static/css/main.0d5f61dc.chunk.css",
+    "static/js/main.662706de.chunk.js"
+  ]
+}
